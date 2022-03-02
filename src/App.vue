@@ -9,9 +9,17 @@ import HomeButton from './components/HomeButton.vue';
 
 <template>
   <home-background>
-    <home-logo></home-logo>
-    <home-promo></home-promo>
-    <home-button></home-button>
+    <div class="flex flex-col w-full h-full">
+      <div>
+        <home-logo></home-logo>
+      </div>
+      <div>
+        <home-promo></home-promo>
+      </div>
+      <div>
+        <home-button></home-button>
+      </div>
+    </div>
   </home-background>
 </template>
 
