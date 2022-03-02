@@ -6,9 +6,9 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: theme => ({
-        'sm': "url('bg-sm.png')",
-        'logo': "url('assinatura-sm.png')",
-        'promo': "url('promo-sm.png')"
+        'sm': "url('src/assets/bg-sm.png')",
+        'logo': "url('src/assets/assinatura-sm.png')",
+        'promo': "url('src/assets/promo-sm.png')"
       })
     },
   },
