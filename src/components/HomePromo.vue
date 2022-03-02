@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-center pt-32">
-    <div class="w-1/2 h-28 bg-promo bg-contain text-center bg-no-repeat"></div>
+  <div class="flex justify-center pt-36">
+    <div class="w-2/3 h-32 bg-promo bg-contain text-center bg-no-repeat"></div>
   </div>
 </template>
