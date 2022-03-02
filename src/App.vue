@@ -1,12 +1,14 @@
 <script setup>
+import HomeBackground from './components/HomeBackground.vue';
+import HomeLogo from './components/HomeLogo.vue';
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
 </script>
 
 <template>
-  <h1 class="text-3xl font-bold underline text-blue-600">
-    Hello world!
-  </h1>
+  <home-background>
+    <home-logo></home-logo>
+  </home-background>
 </template>
 
 <style>

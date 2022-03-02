@@ -4,7 +4,13 @@ module.exports = {
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: theme => ({
+        'sm': "url('bg-sm.png')",
+        'logo': "url('assinatura-sm.png')",
+        'promo': "url('promo-sm.png')"
+      })
+    },
   },
   plugins: [],
 }
